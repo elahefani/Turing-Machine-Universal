@@ -1,0 +1,4 @@
+states:{q0,q1,q2,q3,q4,q5وq6,q7,q8,q9,q10,q11,q12}
+start_state:{q0}
+final_states:{q12}
+actions:{(q0,1,1,R,q0),(q0,c,c,R,q1),(q1,1,1,R,q1),(q1,B,c,L,q2),(q2,1,1,L,q2),(q2,c,c,R,q3),(q3,x,x,R,q3),(q3,1,x,L,q4),(q3,c,B,R,q12),(q4,x,x,L,q4),(q4,c,c,L,q5),(q5,y,y,L,q5),(q5,B,B,R,q11),(q5,1,y,R,q6),(q6,y,y,R,q6),(q6,c,c,R,q7),(q7,1,1,R,q7),(q7,x,x,R,q7),(q7,c,c,R,q8),(q8,1,1,R,q8),(q8,B,1,L,q9),(q9,1,1,L,q9),(q9,c,c,L,q10),(q10,1,1,L,q10),(q10,x,x,L,q10),(q10,c,c,L,q5),(q11,y,1,R,q11),(q11,c,c,R,q3)}
